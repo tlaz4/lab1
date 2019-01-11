@@ -1,3 +1,4 @@
 import requests
 
-print(requests.get("http://google.com"))
+r = requests.get("http://google.com")
+print(r.text)
